@@ -27,8 +27,17 @@
     -VideoBackground
     -VideoTitle
   - SecondaryContainer
-    -MovieList*n
-    -cards*n
+    -MovieList\*n
+    - Popular -cards\*n
+    - Trending -cards\*n
+    - Now Playing -cards\*n
+    - Recommendations -cards\*n
+    - Genre -cards\*n
+- Planning the MainContainer and SecondaryContainer.
+- Fetch Data from API for trailer Video
+- Update store with trailer Video.
+- Embedded the youtube video using iframe.
+- Used Tailwind to make the MainContainer look better.
 - Built a browse page with VideoTitle and VideoBackground.
 
 # Features

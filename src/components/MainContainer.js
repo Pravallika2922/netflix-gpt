@@ -10,7 +10,7 @@ const MainContainer = () => {
   if (movies === null) return;
   const mainMovie = movies[random];
   return (
-    <div>
+    <div className="relative">
       <VideoTitle title={mainMovie.title} overview={mainMovie.overview} />
       <VideoBackGround id={mainMovie.id} />
     </div>
