@@ -20,3 +20,12 @@ export const API_NOWPLAYING_URL =
 export const IMAGE_CDN_URL = "https://image.tmdb.org/t/p/w500/";
 export const API_POPULAR_URL = "https://api.themoviedb.org/3/movie/popular";
 export const API_UPCOMING_URL = "https://api.themoviedb.org/3/movie/upcoming";
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "german", name: "German" },
+];
+export const OPENAI_APIKEY =
+  "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";
+export const SEARCH_TMDB_API =
+  "https://api.themoviedb.org/3/search/movie?query=";

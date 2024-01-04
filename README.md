@@ -39,6 +39,17 @@
 - Embedded the youtube video using iframe.
 - Used Tailwind to make the MainContainer look better.
 - Built a browse page with VideoTitle and VideoBackground.
+- Build secondary component
+- Built movie list
+- build movie card
+- TMDB image CDN url
+- made the browse page look good using tailwind css
+- created usePopularMovies and useUpcomingMovies custom hooks
+- Build a movie recommendation system using GPT API built by Open API
+  - Add a link in the header
+  - Toggle functionality for GPT Search
+  - Create GPT Search page by creating two components- GPT Search Bar and GPT Movie Suggestions
+  - Created a mulitlingual feature for GPT search page
 
 # Features
 
